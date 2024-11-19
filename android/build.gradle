@@ -27,6 +27,14 @@ apply plugin: 'kotlin-android'
 android {
     compileSdkVersion 33
 
+    namespace 'com.example.couple_diary.photo_gallery' // 적절한 네임스페이스 입력
+    compileSdkVersion 33
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 33
+    }
+}
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
