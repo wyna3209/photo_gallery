@@ -25,9 +25,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 33
 
-    namespace 'com.example.couple_diary.photo_gallery' // 적절한 네임스페이스 입력
+    namespace 'com.morbit.photogallery' // 적절한 네임스페이스 입력
     compileSdkVersion 33
 
 
